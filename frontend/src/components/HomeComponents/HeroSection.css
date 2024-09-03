@@ -206,7 +206,7 @@
   
   --_f: calc(100%*var(--f)/(1 + var(--f)));
   --_a: calc(40deg*var(--f));
-  max-width: 80%; /* the image size */
+  max-width: 90%; /* the image size */
   aspect-ratio: calc(1 + var(--f));
   object-fit: cover;
   clip-path: inset(0 var(--_f) 0 0 round var(--r));

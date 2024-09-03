@@ -6,10 +6,10 @@ const Footer = () => {
     <footer className="footer">
       <div className="container3">
         <a className="logo" href="/">
-          <img className='logo-icon' src="/images/logo.png" alt="content" />
-          <span className="logo-text">ShareMeal</span>
+          <img className='logo-icon' src="/images/krishilogo2.jpg" alt="content" />
+          <span className="logo-text">KrishiSetu</span>
         </a>
-        <p className="copyright">© 2024 ShareMeal —
+        <p className="copyright">© 2024 KrishiSetu —
           <a href="https://www.linkedin.com/in/tripathiabhishek07/" className="twitter-link" rel="noopener noreferrer" target="_blank">@tripathiabhishek07</a>
         </p>
         <span className="social-links">

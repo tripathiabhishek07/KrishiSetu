@@ -14,7 +14,7 @@
     font-family: Arial, sans-serif;
     padding: 24px 5%;
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     
   }
   @media (max-width:768px){
@@ -154,7 +154,7 @@
   color: #bec1dd;
   font-size: 0.8rem;
     line-height: 1.4;
-    text-align: center;
+    text-align: left;
 }
 
 /* Responsive Styles */

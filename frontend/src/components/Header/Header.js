@@ -25,7 +25,7 @@ export default function Header() {
           )}
         </div>
         <Link to="/" className={classes.logo}>
-          ShareMeal
+          KrishiSetu
         </Link>
       </div>
       <nav className={`${classes.nav} ${menuOpen ? classes.open : ""}`}>
@@ -40,10 +40,13 @@ export default function Header() {
                   <a href="/about">About</a>
                 </li>
                 <li>
-                  <a href="/">Contact Us</a>
+                  <a href="/">Feature</a>
                 </li>
                 <li>
-                  <a href="/dashboard">Dashboard</a>
+                  <a href="/dashboard">How it works</a>
+                </li>
+                <li>
+                  <a href="/dashboard">Contact</a>
                 </li>
                 <DropdownMenu user={user} logout={logout} isOpen={menuOpen} />
               </ul>

@@ -1,5 +1,5 @@
 .team-section {
-  padding-top: 4rem;
+  padding-top: 2rem;
   
   background-color: #000319;
   color: whitesmoke;
@@ -52,7 +52,7 @@
 
 /* Team member card */
 .team-member {
-  box-shadow: rgba(150, 149, 149, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(237, 236, 236, 0.299) 0px 8px 16px 0px;
+  box-shadow: rgba(150, 149, 149, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(237, 236, 236, 0.299) 0px 8px 6px 0px;
   border: 0.0001rem solid #53525277;
   /* border: 2px solid grey; */
   display: flex;
