@@ -18,7 +18,7 @@ const HeroSection = () => {
             <Link to="/admin/addFood">
             <button className="btn primary-btn">Get Started</button>
             </Link>
-            <Link to = "/homepage">
+            <Link to = "/">
             <button className="btn secondary-btn">Learn More</button>
             </Link>
           </div>

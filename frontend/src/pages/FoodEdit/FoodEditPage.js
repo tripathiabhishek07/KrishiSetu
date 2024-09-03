@@ -59,7 +59,7 @@ export default function FoodEditPage() {
     <div className={classes.container}>
       <div className={classes.content}>
         {/* <Title title={isEditMode ? 'Edit Food' : 'Add Food'} /> */}
-        <h1>Add Food</h1>
+        <h1>Agreement Form</h1>
         <form
           className={classes.form}
           onSubmit={handleSubmit(submit)}
@@ -77,38 +77,85 @@ export default function FoodEditPage() {
 
           <Input
             type="text"
-            label="Food Name"
+            label="Full Name"
             {...register('name', { required: true, minLength: 5 })}
             error={errors.name}
           />
 
           <Input
             type="number"
-            label="Quanitity (in Kg)"
+            label="Aadhar Number"
+            {...register('price', { required: true })}
+            error={errors.price}
+          />
+          <Input
+            type="number"
+            label="Phone Number"
             {...register('price', { required: true })}
             error={errors.price}
           />
 
           <Input
             type="text"
-            label="City"
+            label="Full Address"
             {...register('tags')}
             error={errors.tags}
           />
-
+           <Input
+            type="number"
+            label="Farm Size(in acres)"
+            {...register('price', { required: true })}
+            error={errors.price}
+          />
+          <Input
+            type="number"
+            label="Quantity of Produce (in metric Tons)"
+            {...register('price', { required: true })}
+            error={errors.price}
+          />
           <Input
             type="text"
-            label="Locality"
+            label="Crop Type"
             {...register('origins', { required: true })}
             error={errors.origins}
           />
-
+          <Input
+            type="number"
+            label="Agreed MSP Rate(Per kg/ton)"
+            {...register('price', { required: true })}
+            error={errors.price}
+          />
+           <Input
+            type="number"
+            label="Quantity Covered Under MSP"
+            {...register('price', { required: true })}
+            error={errors.price}
+          />
+            <Input
+            type="number"
+            label="Bank Account Number"
+            {...register('price', { required: true })}
+            error={errors.price}
+          />
+           <Input
+            type="text"
+            label="Bank Name"
+            {...register('origins', { required: true })}
+            error={errors.origins}
+          />
           <Input
             type="text"
-            label="Expiry Time"
-            {...register('cookTime', { required: true })}
-            error={errors.cookTime}
+            label="IFSC Code"
+            {...register('origins', { required: true })}
+            error={errors.origins}
           />
+           <Input
+            type="number"
+            label="Bank Account Number"
+            {...register('price', { required: true })}
+            error={errors.price}
+          />
+         
 
           <Button type="submit" text={isEditMode ? 'Update' : 'Upload'} />
         </form>

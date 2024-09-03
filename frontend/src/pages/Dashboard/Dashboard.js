@@ -22,7 +22,7 @@ export default function Dashboard() {
       color: "white",
     },
     {
-      title: "Foods",
+      title: "Orders",
       imageUrl: "/icons/foods.svg",
       url: "/admin/foods",
       forAdmin: true,
